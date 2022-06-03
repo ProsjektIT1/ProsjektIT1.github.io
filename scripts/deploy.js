@@ -1,10 +1,9 @@
 const ghpages = require('gh-pages');
 
-const main = 'master';
 ghpages.publish(
 	'__sapper__/export',
 	{
-		branch: main,
+		branch: 'main',
 		repo: ProsjektIT1.github.io,
 		user: {
 			name: 'ProsjektIT1',

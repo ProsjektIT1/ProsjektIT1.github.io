@@ -8,7 +8,7 @@
     "export": "sapper export --legacy",
     "start": "node __sapper__/build",
     "deploy": "npm run clean && npm run export && node ./scripts/deploy.js",
-    "clean": "del -rf ./__sapper__"
+    "clean": "rm -rf ./__sapper__"
   },
   "dependencies": {
     "compression": "^1.7.1",

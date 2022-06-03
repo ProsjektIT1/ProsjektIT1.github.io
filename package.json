@@ -15,7 +15,8 @@
     "compression": "^1.7.1",
     "gh-pages": "^4.0.0",
     "polka": "next",
-    "sirv": "^1.0.0"
+    "sirv": "^1.0.0",
+    "minimist": ">=1.2.6"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0",

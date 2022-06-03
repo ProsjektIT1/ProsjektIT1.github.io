@@ -1,4 +1,4 @@
-const ghpages = require('ghpages');
+const ghpages = require('gh-pages');
 
 ghpages.publish(
 	'__sapper__/export',

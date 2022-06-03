@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "sapper dev",
     "build": "sapper build --legacy",
-    "export": "sapper export --legacy",
+    "export": "sapper export --basepath repo-name --legacy",
     "start": "node __sapper__/build",
     "deploy": "npm run clean && npm run export && node ./scripts/deploy.js",
     "clean": "rd /s /q ./__sapper__>nu1 2>&1|echo.>nu1"

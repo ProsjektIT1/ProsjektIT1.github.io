@@ -3,7 +3,7 @@ const ghpages = require('gh-pages');
 ghpages.publish(
 	'__sapper__/export',
 	{
-		branch: 'balls',
+		branch: 'master',
 		repo: "https://github.com/prosjektit1/prosjektit1.github.io.git",
 		user: {
 			name: 'ProsjektIT1',
